@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+#app {
+  display: flex;
+}
+#aside {
+  height: 100vh;
+  background-color: #2d3a4b;
+  box-shadow: 0 0 15px #262831;
+}
+#aside h2 {
+  padding: 1em;
+  text-align: center;
+  font-weight: normal;
+  background: #414e5f;
+  color: #008b8b;
+}
+#aside ul {
+  list-style: none;
+  margin-top: 3em;
+}
+#aside li {
+  padding: 0 1em;
+  line-height: 2.4em;
+  cursor: pointer;
+  color: #777;
+}
+#aside li:hover {
+  background-color: #233041;
+}
+#aside li.active {
+  background: #000;
+  color: #ddd;
+}
+#main {
+  display: flex;
+  width: 100%;
+}
+#main >* {
+  margin: auto;
+}
+#audioControl {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  background: #bed4e3 url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'><polygon points='5,0 24,12 5,24' fill='white'></polygon></svg>") no-repeat center/50%;
+}
+#audioControl:hover {
+  border: 6px solid rgba(0,0,0,0.2);
+}
+#audioControl.pause {
+  background: #ffa07a url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20'><rect x='0' y='0' width='8' height='20' fill='white'></rect><rect x='12' y='0' width='8' height='20' fill='white'></rect></svg>") no-repeat center/50%;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Rus - radio</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta name="theme-color" content="#222831">
+  <link href="style.css" rel="stylesheet">
+  <script src="index.js" defer></script>
+  <link rel='manifest' href='manifest.json'>
+
+
+</head>
+<body>
+
+<!-- partial:index.partial.html -->
+<div id="app">
+  <div id="aside">
+    <h2>Радиостанции</h2>
+    <ul>
+      <li v-for="(item, index) in stations" :class="{ active : index == activeStation }" @click="play(item.src, index)">{{item.title}}  </li>
+    </ul>
+  </div>
+  <div id="main">
+    <svg id="audioSvg" ref="audioSvg" viewbox="0 0 58 80" width="116" height="160" fill="#d9534f">
+      <g transform="matrix(1 0 0 -1 0 80)">
+        <rect width="10" height="24">
+          <animate attributename="height" begin="0s" dur="4.3s" values="20;45;57;80;64;32;66;45;64;23;66;13;64;56;34;34;2;23;76;79;20" calcmode="linear" repeatcount="indefinite"></animate>
+        </rect>
+        <rect x="16" width="10" height="46">
+          <animate attributename="height" begin="0s" dur="2s" values="80;55;33;5;75;23;73;33;12;14;60;80" calcmode="linear" repeatcount="indefinite"></animate>
+        </rect>
+        <rect x="32" width="10" height="36">
+          <animate attributename="height" begin="0s" dur="1.4s" values="50;34;78;23;56;23;34;76;80;54;21;50" calcmode="linear" repeatcount="indefinite"></animate>
+        </rect>
+        <rect x="48" width="10" height="65">
+          <animate attributename="height" begin="0s" dur="2s" values="30;45;13;80;56;72;45;76;34;23;67;30" calcmode="linear" repeatcount="indefinite"></animate>
+        </rect>
+      </g>
+    </svg>
+  </div>
+  <audio id="audio" autoplay="autoplay" ref="audio" src="http://62.109.4.223:8000/radio"></audio>
+  <div id="audioControl" @click="stop()" :class="isPause ? 'pause' : ''"></div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
