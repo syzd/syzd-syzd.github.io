@@ -1,28 +1,58 @@
 const stations = [
   {
-    title: "На Волне Yum.fm",
-    src: "http://yumfm.hostingradio.ru:8020/yumfm128.mp3"
+    title: "92,4 FM LOVE radio",
+    src: "https://stream2.n340.com/12_love_64_reg_44?type=aac&UID=5269260C484164FEE2A2054FB1329794"
   },{
-    title: "Радио Best FM",
-    src: "http://best128.streamr.ru/"
+    title: "93,2 FM Самарское губернское радио",
+    src: "https://str.pcradio.ru/guberniafm_ru-hi"
   },{
-    title: "Радио ENERGY",
-    src: "http://ic2.101.ru:8000/v1_1"
+    title: "94,6 FM Маяк ",
+    src: "https://radio.gtrk35.ru/RadioMayak"
   },{
-    title: "Rock FM 95.2",
-    src: "http://nashe.streamr.ru/rock-128.mp3"
+    title: "95,1 FM - Ретро FM",
+    src: "http://109.200.130.38:8000/retro-alushta"
   },{
-    title: "Радио ПАССАЖ",
-    src: "http://listen.radiopassazh.ru/hd"
+    title: "95,7 FM Наше радио",
+    src: "http://online-1.gkvr.ru:8000/nashe_kaz_64.aac"
   },{
-    title: "Радио Maximum",
-    src: "http://icecast.radiomaximum.cdnvideo.ru/maximum.mp3"
+    title: "96,4 FM - Радио Дача",
+    src: "http://online-1.gkvr.ru:8000/dacha_eka_64.aac"
   },{
-    title: "Авторадио",
-    src: "http://den.101.ru:4000/ar_78_01"
- },{
-    title: "Зайцев FM",
-    src: "http://radio.zaycev.fm:9002/ZaycevFM(128)"
+    title: "97,5 FM - Дорожное радио",
+    src: "http://dorognoe.hostingradio.ru:8000/radio"
+  },{
+    title: "97,9 FM - Европа плюс",
+    src: "http://ep256.hostingradio.ru:8052/europaplus256.mp3"
+  },{
+    title: "98,3 FM - радио Вера",
+    src: "https://str.pcradio.ru/radiovera_ru-hi"
+  },{
+    title: "98,7 FM - Русское радио ",
+    src: "http://radio-holding.ru:9000/russian"
+  },{
+    title: "99,7 FM - Ваня(Самара)",
+    src: "http://icecast-rvsamara.cdnvideo.ru/rvsamara"
+  },{
+    title: "101,4 FM - DFM",
+    src: "https://dfm.hostingradio.ru/dfm96.aacp"
+  },{
+    title: "101,8 FM - Радио Мир",
+    src: "https://icecast-mirtv.cdnvideo.ru/radio_mir128"
+  },{
+    title: "103,4  FM -  Радио россии (Самара)",
+    src: "http://icecast.vgtrk.cdnvideo.ru/rrzonam"
+  },{
+    title: "103,8  FM - Авторадио",
+    src: "https://str.pcradio.ru/avtoradio-hi"
+  },{
+    title: "104,2 FM Вести FM",
+    src: "https://icecast-vgtrk.cdnvideo.ru/vestifm_aac_64kbps"
+  },{
+    title: "104,6  FM - Радио Энерджи ( ENERGY)",
+    src: "https://pub0202.101.ru:8443/stream/air/aac/64/99"
+  },{
+    title: "105,9  FM - Юмор FM",
+    src: "http://ic7.101.ru:8000/v5_1"
   }
 ];
 
