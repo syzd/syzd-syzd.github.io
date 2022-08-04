@@ -1,9 +1,6 @@
 const stations = [
   {
-    title: "92,4 FM LOVE radio",
-    src: "https://stream2.n340.com/12_love_64_reg_44?type=aac&UID=5269260C484164FEE2A2054FB1329794"
-  },{
-    title: "93,2 FM Самарское губернское радио",
+    title: "93,2 FM - Губернское",
     src: "https://str.pcradio.ru/guberniafm_ru-hi"
   },{
     title: "94,6 FM Маяк ",
@@ -18,7 +15,7 @@ const stations = [
     title: "96,4 FM - Радио Дача",
     src: "http://online-1.gkvr.ru:8000/dacha_eka_64.aac"
   },{
-    title: "97,5 FM - Дорожное радио",
+    title: "97,5 FM - Дорожное",
     src: "http://dorognoe.hostingradio.ru:8000/radio"
   },{
     title: "97,9 FM - Европа плюс",
@@ -27,8 +24,8 @@ const stations = [
     title: "98,3 FM - радио Вера",
     src: "https://str.pcradio.ru/radiovera_ru-hi"
   },{
-    title: "98,7 FM - Русское радио ",
-    src: "http://radio-holding.ru:9000/russian"
+    title: "98,7 FM - Русское Р.",
+    src: "http://online-1.gkvr.ru:8000/rusradio96.aac"
   },{
     title: "99,7 FM - Ваня(Самара)",
     src: "http://icecast-rvsamara.cdnvideo.ru/rvsamara"
@@ -39,8 +36,8 @@ const stations = [
     title: "101,8 FM - Радио Мир",
     src: "https://icecast-mirtv.cdnvideo.ru/radio_mir128"
   },{
-    title: "103,4  FM -  Радио россии (Самара)",
-    src: "http://icecast.vgtrk.cdnvideo.ru/rrzonam"
+    title: "103,4  FM -  Р. России",
+    src: "http://online-1.gkvr.ru:8000/rusradio96.aac"
   },{
     title: "103,8  FM - Авторадио",
     src: "https://str.pcradio.ru/avtoradio-hi"
@@ -48,7 +45,7 @@ const stations = [
     title: "104,2 FM Вести FM",
     src: "https://icecast-vgtrk.cdnvideo.ru/vestifm_aac_64kbps"
   },{
-    title: "104,6  FM - Радио Энерджи ( ENERGY)",
+    title: "104,6  FM - ENERGY",
     src: "https://pub0202.101.ru:8443/stream/air/aac/64/99"
   },{
     title: "105,9  FM - Юмор FM",
