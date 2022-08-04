@@ -7,7 +7,7 @@ const stations = [
     src: "https://radio.gtrk35.ru/RadioMayak"
   },{
     title: "95,1 FM - Ретро FM",
-    src: "http://109.200.130.38:8000/retro-alushta"
+    src: "http://edge03.cdn.bitflip.ee:8888/rrretro?_i=55f91af7"
   },{
     title: "95,7 FM Наше радио",
     src: "http://online-1.gkvr.ru:8000/nashe_kaz_64.aac"
@@ -37,7 +37,7 @@ const stations = [
     src: "https://icecast-mirtv.cdnvideo.ru/radio_mir128"
   },{
     title: "103,4  FM -  Р. России",
-    src: "http://online-1.gkvr.ru:8000/rusradio96.aac"
+    src: "http://radio.ivteleradio.ru/live"
   },{
     title: "103,8  FM - Авторадио",
     src: "https://str.pcradio.ru/avtoradio-hi"
