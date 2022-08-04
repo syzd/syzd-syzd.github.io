@@ -3,7 +3,7 @@ const stations = [
     title: "93,2 FM - Губернское",
     src: "https://str.pcradio.ru/guberniafm_ru-hi"
   },{
-    title: "94,6 FM Маяк ",
+    title: "94,6 FM - Маяк ",
     src: "http://icecast.vgtrk.cdnvideo.ru/mayak_nn"
   },{
     title: "95,1 FM - Ретро FM",
@@ -36,7 +36,7 @@ const stations = [
     title: "101,8 FM - Радио Мир",
     src: "https://icecast-mirtv.cdnvideo.ru/radio_mir128"
   },{
-    title: "103,4  FM -  Р. России",
+    title: "103,4  FM - Р. России",
     src: "http://radio.ivteleradio.ru/live"
   },{
     title: "103,8  FM - Авторадио",
