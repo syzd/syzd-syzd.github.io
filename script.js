@@ -4,7 +4,7 @@ const stations = [
     src: "https://str.pcradio.ru/guberniafm_ru-hi"
   },{
     title: "94,6 FM Маяк ",
-    src: "https://radio.gtrk35.ru/RadioMayak"
+    src: "http://icecast.vgtrk.cdnvideo.ru/mayak_nn"
   },{
     title: "95,1 FM - Ретро FM",
     src: "http://edge03.cdn.bitflip.ee:8888/rrretro?_i=55f91af7"
@@ -27,7 +27,7 @@ const stations = [
     title: "98,7 FM - Русское Р.",
     src: "http://online-1.gkvr.ru:8000/rusradio96.aac"
   },{
-    title: "99,7 FM - Ваня(Самара)",
+    title: "99,7 FM - Радио Ваня",
     src: "http://icecast-rvsamara.cdnvideo.ru/rvsamara"
   },{
     title: "101,4 FM - DFM",
@@ -42,7 +42,7 @@ const stations = [
     title: "103,8  FM - Авторадио",
     src: "https://str.pcradio.ru/avtoradio-hi"
   },{
-    title: "104,2 FM Вести FM",
+    title: "104,2 FM - Вести FM",
     src: "https://icecast-vgtrk.cdnvideo.ru/vestifm_aac_64kbps"
   },{
     title: "104,6  FM - ENERGY",
